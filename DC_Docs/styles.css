@@ -1,0 +1,104 @@
+body{
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+h1{
+    font-weight: 300;
+    font-size: 15px;
+}
+h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+h3{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 3px;
+    margin-left: 3px;
+}
+header{
+    width: 800px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.main-container {
+    background-color: light grey;
+    padding: 05px;
+
+}
+li{
+    color: white;
+    padding: 20px;
+    list-style-type:none;
+    font-weight: 400; 
+
+}
+ul{
+    text-align: left;
+    padding-left: 0px;
+}
+.navigation{
+    color: lightgrey;
+    min-width: 200px;
+    min-height: 650px;
+    transition: color blue;
+    background-color: darkgrey;
+    list-style-type: none;
+    position: relative;
+}
+
+.left {
+    float: left;
+    width: 220px;
+}
+#right {
+    float: right;
+    width: calc(100% - 220px);
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 300px;
+}
+#box{
+    background-color: lightgrey;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    color: #888;
+    padding-top: 10px;
+    border-left: 20px solid darkgrey;
+    text-indent: 50px;
+
+}
+
+img{
+    float: left;
+    margin-right: 30px;
+    height: 30px;
+    width: 70px;
+}
+.signature{
+    text-align: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+a{
+    color: lightgrey;   
+}
+p{
+    padding-left: 10px;
+}
+.copyright{
+    color: lightgrey;
+    position: absolute;
+    bottom: 0%;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.action{
+    padding-left: 5px;
+}
+
