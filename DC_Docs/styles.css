@@ -42,7 +42,7 @@ ul{
 .navigation{
     color: lightgrey;
     min-width: 200px;
-    min-height: 650px;
+    min-height: 600px;
     transition: color blue;
     background-color: darkgrey;
     list-style-type: none;
@@ -50,6 +50,7 @@ ul{
 }
 
 .left {
+    position: fixed;
     float: left;
     width: 220px;
 }
@@ -58,7 +59,8 @@ ul{
     width: calc(100% - 220px);
     box-sizing: border-box;
     padding-left: 30px;
-    padding-right: 300px;
+    padding-right: 355px;
+    padding-bottom: 400px;
 }
 #box{
     background-color: lightgrey;
