@@ -59,7 +59,7 @@ ul{
     width: calc(100% - 220px);
     box-sizing: border-box;
     padding-left: 30px;
-    padding-right: 355px;
+    padding-right: 325px;
     padding-bottom: 400px;
 }
 #box{
@@ -69,7 +69,7 @@ ul{
     font-size: 20px;
     color: #888;
     padding-top: 10px;
-    border-left: 20px solid darkgrey;
+    border-left: 10px solid darkgrey;
     text-indent: 50px;
 
 }
@@ -86,7 +86,8 @@ img{
     font-style: italic;
 }
 a{
-    color: lightgrey;   
+    color: lightgrey; 
+    text-decoration: none;  
 }
 p{
     padding-left: 10px;
